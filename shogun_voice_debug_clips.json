@@ -1,0 +1,72 @@
+[
+  {
+    "id": "portuguese_offer",
+    "label": "Portuguese traders ask audience",
+    "method": "other_start",
+    "path": "\\Throne\\Port_Trader\\Offer.Mp3",
+    "token": "portuguese_out"
+  },
+  {
+    "id": "portuguese_accepted",
+    "label": "Portuguese traders accepted",
+    "method": "other_start",
+    "path": "\\Throne\\Port_Trader\\Accepted.Mp3",
+    "token": "portuguese_out"
+  },
+  {
+    "id": "portuguese_rejected",
+    "label": "Portuguese traders rejected",
+    "method": "other_start",
+    "path": "\\Throne\\Port_Trader\\Rejected.Mp3",
+    "token": "portuguese_out"
+  },
+  {
+    "id": "dutch_offer",
+    "label": "Dutch traders ask audience",
+    "method": "other_start",
+    "path": "\\Throne\\Dutch_Trader\\Offer.Mp3",
+    "token": "dutch_out"
+  },
+  {
+    "id": "dutch_accepted",
+    "label": "Dutch traders accepted",
+    "method": "other_start",
+    "path": "\\Throne\\Dutch_Trader\\Accepted.Mp3",
+    "token": "dutch_out"
+  },
+  {
+    "id": "dutch_rejected",
+    "label": "Dutch traders rejected",
+    "method": "other_start",
+    "path": "\\Throne\\Dutch_Trader\\Rejected.Mp3",
+    "token": "dutch_out"
+  },
+  {
+    "id": "head_on_plate_hojo",
+    "label": "Messenger head on plate Hojo",
+    "method": "other_start",
+    "path": "\\Throne\\Messenger\\Head_On_Plate\\Hojo.Mp3",
+    "token": "head_out"
+  },
+  {
+    "id": "head_on_plate_takeda",
+    "label": "Messenger head on plate Takeda",
+    "method": "other_start",
+    "path": "\\Throne\\Messenger\\Head_On_Plate\\Takeda.Mp3",
+    "token": "head_out"
+  },
+  {
+    "id": "priest_rejected_takeda",
+    "label": "Priest response rejected Takeda",
+    "method": "other_start",
+    "path": "\\Throne\\Priest\\Response\\Rejected\\Takeda.Mp3",
+    "token": "priest_out_Takeda"
+  },
+  {
+    "id": "emissary_accepted_oda",
+    "label": "Emissary response accepted Oda",
+    "method": "other_start",
+    "path": "\\Throne\\Emissary\\Response\\Accepted\\Oda.Mp3",
+    "token": "hostemiss_Oda"
+  }
+]
