@@ -140,7 +140,7 @@ Console markers:
 
 ## License
 
-This release bundle is provided under the GNU General Public License v3.0.
+This is provided under the GNU General Public License v3.0.
 See `LICENSE` for the full text.
 
 ## Verification In Game
