@@ -4,8 +4,8 @@ Manual voice-trigger tools for `ShogunM.exe`.
 
 This release provides two small Windows injectors that let you manually trigger voice clips inside the game for testing:
 
-- throne-room speech clips such as advisor, emissary, priest, trader, and messenger lines
-- selected world-map/campaign MP3 clips such as herald lines and death poems
+- throne-room speech clips such as advisor, emissary, priest, trader, and throne-scene messenger lines
+- selected world-map/campaign MP3 clips such as herald lines, death poems, and annual-event messenger lines
 
 These tools are intended for testing and verification. They do not replace the game audio assets, and they do not patch the game executable permanently.
 
@@ -24,6 +24,8 @@ The world-map tool is intentionally narrower. In `v1.0.0` it targets:
 
 - `Voices\Herald\*.mp3`
 - `Voices\Poems\*.mp3`
+- `Voices\Throne\Messenger\Birth\*.mp3`
+- `Voices\Throne\Messenger\Harvest\*.mp3`
 
 ## Files
 
@@ -35,6 +37,8 @@ The world-map tool is intentionally narrower. In `v1.0.0` it targets:
   Optional throne-room override metadata used by the throne-room tool.
 - `requirements.txt`
   Python dependency list.
+- `LICENSE`
+  GNU GPL v3 license text
 - `README.md`
   This file.
 
@@ -119,13 +123,25 @@ Hotkeys:
 - `F9` next clip
 - `F10` play selected clip
 
+Console markers:
+
+- `[N]` native throne scene route
+- `[Q]` native advisor quote route
+
 ## Notes
 
 - `--spawn` is intentionally strict and refuses to run if `ShogunM.exe` is already running.
 - If `--log` is not supplied, the log file is written into the selected game folder.
 - The throne-room tool is limited to supported throne-room MP3 clips. It does not include the game's `.wav` voice assets.
-- The world tool in `v1.0.0` is limited to `Herald` and `Poems`.
+- The throne-room tool excludes the world-event messenger `Birth` and `Harvest` clips. Those live in the world tool.
+- Advisor MP3 clips use the game's secondary advisor quote route, including the quote-length script bucket used by the shipped game.
+- The world tool in `v1.0.0` includes `Herald`, `Poems`, and the messenger `Birth` and `Harvest` event MP3s.
 - These tools are for manual testing. They are not intended as a general gameplay mod or trainer.
+
+## License
+
+This release bundle is provided under the GNU General Public License v3.0.
+See `LICENSE` for the full text.
 
 ## Verification In Game
 
